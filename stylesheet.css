@@ -1,0 +1,112 @@
+html {
+  background-color: #f5f5f5;
+  background-size: cover;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.scoreContainer{
+margin: auto;
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.player1, .player2 {
+  margin: 10px;
+  padding-right: 5px;
+  padding-left:5px;
+  color: grey;
+  font-weight: 400;
+}
+
+.player1turn{
+  color: #21243d;
+  font-weight: 800;
+}
+
+.player2turn{
+  color: #FF7C7C;
+  font-weight: 800;
+}
+
+.score{
+  padding-right: 5px;
+  padding-left: 5px;}
+
+.container{
+  margin: auto;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px 1px 0px 0px;
+  background-color: white;
+  box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.49);
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 0px 1px 1px;
+}
+
+.fa-circle, .fa-times {
+  vertical-align: middle;
+}
+
+.fa-circle {
+  color: #21243d;
+}
+
+.fa-times {
+  color: #ff7c7c;
+}
+
+#restart {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  border: 1px solid grey;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: grey;
+  padding: 10px 15px 10px 15px;
+}
+
+#restart:hover {
+  background-color: #ffd082;
+}
+
+#restart:active, #restart:focus{
+ outline: 0;
+}
+
+.winnerAnnouncement{
+  margin-bottom: 15px;
+  text-align: center;
+  height : 60px;
+  font-size: 35px;
+  padding: auto;
+}
