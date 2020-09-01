@@ -3,7 +3,7 @@
 An online version of a classic tic-tac-toe game played by 2 players, created using HTML5, CSS, and JavaScript ES6.  
 This project was inspired by [The Odin Project](https://www.theodinproject.com/) online learning curriculum.
 
-[Live Demo](https://morganbonhomme.github.io/TicTacToe/)
+[Live Demo](https://morganbonhomme.github.io/Tic-Tac-Toe/)
 
 
 ## Learning Objectives
